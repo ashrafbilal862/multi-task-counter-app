@@ -1,0 +1,19 @@
+$buttonColor: rgb(53, 157, 241);
+
+.counter-button {
+    display: inline-block;
+    text-align: center;
+    border: none;
+    background-color: $buttonColor;
+    padding: 6px 9px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+
+    &--outlined {
+        background-color: transparent !important;
+        border: 1px solid $buttonColor !important;
+        color: $buttonColor !important;
+        padding: 3px 6px !important;
+    }
+}

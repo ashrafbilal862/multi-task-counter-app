@@ -1,0 +1,27 @@
+$Color: rgb(53, 157, 241);
+
+.counter {
+    &__title {
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+
+    &__actions {
+        button:not(:last-child) {
+            margin-right: 10px;
+        }
+    }
+}
+
+.counter-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $Color;
+    cursor: pointer;
+
+    &__icon {
+        margin-right: 5px;
+        transform: translateY(-2px);
+    }
+}
