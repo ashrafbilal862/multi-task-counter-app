@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from 'components/Button/counterButton/CounterButton.module.scss'
+import classes from './CounterButton.module.scss'
 
 interface ICounterButtonProps {
     icon?: string;
